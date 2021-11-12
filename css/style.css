@@ -7,9 +7,13 @@
 
 .container {
     margin: 0 auto;
-    width: 1200px;
     height: 100vh;
+    height: 1200px;
     background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
 }
 
 .batton {
@@ -33,13 +37,26 @@
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    padding-left: 2px;
-    padding-right: 2px;
+
 }
 
+.relative {
+    position: relative;
+    border-right: 2px black solid;
+    border-left: 2px black solid;
+    
+}
+
+.absolute {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    
+}
 
 .immag {
     width: 200px;
+    
 }
 
 footer {
@@ -57,7 +74,7 @@ footer {
 }
 
 .nav-left {
-    margin-left: 10px;
+    margin-left: 40px;
 }
 
 .icon1 {
@@ -68,6 +85,10 @@ footer {
     text-align: center;
     font-size: 25px;
     color: white;
+}
+
+.verde {
+    color: green;
 }
 
 .icon1 span {
