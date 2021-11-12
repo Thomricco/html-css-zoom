@@ -5,6 +5,7 @@
 }
 
 
+
 .container {
     margin: 0 auto;
     height: 100vh;
@@ -16,29 +17,8 @@
     justify-content: center;
 }
 
-.batton {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-}
-.left-button, .right-button {
-    color: white;
-    background-color: gray;
-    height: 20px;
-    margin-right: 10px;
-    margin-top: 10px;
-    border-radius: 5px;
-}
 
-.box-immagini {
-    display: flex;
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
+/*----------------Utility--------------------*/
 
 .relative {
     position: relative;
@@ -59,6 +39,46 @@
     
 }
 
+/*-----------------------------------------*/
+
+.batton {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
+.left-button, .right-button {
+    color: white;
+    background-color: gray;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.box-immagini {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+.icon-user {
+    background-color: rgba(53, 53, 53, 0.356);
+    color: white;
+    font-size: 13px;
+    height: 20px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+
+}
+
 footer {
     display: flex;
     width: 100%;
@@ -75,6 +95,10 @@ footer {
 
 .nav-left {
     margin-left: 40px;
+}
+
+.icon {
+    font-size: 15px;
 }
 
 .icon1 {
@@ -108,6 +132,17 @@ footer {
     margin-right: 10px;
 }
 
+.nav-right {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    margin-right: 20px;
+    height: 100%;
+}
 
-
-
+.botton-end {
+    height: 20px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
